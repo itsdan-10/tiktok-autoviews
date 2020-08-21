@@ -14,7 +14,7 @@
 // ==/UserScript==
 
 if (document.getElementsByName("username").length > 0) {
-    $('input[name="username"]').val('YOUR_USERNAME'); //Change YOUR_USERNAME with your username
+    $('input[name="username"]').val('amlrzkia'); //Change YOUR_USERNAME with your username
     setTimeout(function () {
         lp();
     }, 2000);
@@ -57,7 +57,7 @@ function changeValue() {
             4 = 800 views
             5 = 1000 views
         */
-        jNode.val('5');
+        jNode.val('4');
 
         evt = new Event("change");
         jNode[0].dispatchEvent(evt);
